@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Авторизація</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="auth-form">
+        <h1>Вхід до облікового запису</h1>
+        <div class="input-group">
+          <label for="username">Електронна пошта</label>
+          <input type="email" id="username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" required />
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Запам'ятати мене</label>
+        </div>
+        <button type="submit">Увійти</button>
+        <p class="signup-link">
+          Немає облікового запису? <a href="#">Зареєструватися</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

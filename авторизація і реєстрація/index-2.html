@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Реєстрація</title>
+  </head>
+  <body>
+    <div class="background-image"></div>
+    <div class="container">
+      <form class="registration-form">
+        <h2>Реєстрація</h2>
+        <div class="input-group">
+          <label for="username">Ім'я користувача</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Електронна пошта</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="input-group">
+          <label for="confirm-password">Підтвердження пароля</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+             <div class="form-group">
+        <label for="select">Вибір статті</label>
+        <select id="select" name="select">
+            <option value="option1">Чоловіча</option>
+            <option value="option2">Жіноча</option>
+            <option value="option3">Інше</option>
+        </select>
+    </div>
+
+    <div class="form-group checkbox-wrapper">
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="checkbox">I agree</label>
+    </div>
+    <br>
+        <button type="submit">Зареєструватися</button>
+        <p class="login-link">
+          Вже маєте обліковий запис? <a href="#">Увійти</a>
+        </p>
+        <br>
+      </form>
+    </div>
+  </body>
+</html>
